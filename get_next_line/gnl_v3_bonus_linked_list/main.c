@@ -24,7 +24,10 @@ int	main(void)
 	printf("result 2: %s\n\n", line);
 	line = get_next_line(fd3);
 	printf("result 3: %s\n\n", line);
-
+	line = get_next_line(fd1);
+	printf("result 1: %s\n\n", line);
+	line = get_next_line(fd2);
+	printf("result 2: %s\n\n", line);
 	// free(line);
 	return (0);
 }
